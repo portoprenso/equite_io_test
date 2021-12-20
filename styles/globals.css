@@ -16,3 +16,60 @@ a {
   margin: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Gothic A1 Light";
+  src: url("../public/fonts/Gothic-A1/GothicA1-Light.ttf");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gothic A1 Regular";
+  src: url("../public/fonts/Gothic-A1/GothicA1-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gothic A1 Medium";
+  src: url("../public/fonts/Gothic-A1/GothicA1-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gothic A1 Bold";
+  src: url("../public/fonts/Gothic-A1/GothicA1-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gothic A1 Black";
+  src: url("../public/fonts/Gothic-A1/GothicA1-Black.ttf");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+.gothicA1FontLight {
+  font-family: "Gothic A1 Light";
+}
+.gothicA1FontMedium {
+  font-family: "Gothic A1 Medium";
+}
+.gothicA1FontBlack {
+  font-family: "Gothic A1 Black";
+}
+
+/*.simplebackground {*/
+/*  position:absolute;*/
+/*  right: 0;*/
+/*  top: 85px;*/
+/*  background: url('/assets/img/simplified_background.png');*/
+/*  min-height: 100vh;*/
+/*}*/
